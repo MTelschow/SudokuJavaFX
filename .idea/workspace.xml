@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d67a9575-3961-493b-9416-0df677d8bb92" name="Changes" comment="Scaffold project">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/SudokuApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sudoku/Main.java" afterDir="false" />
+    <list default="true" id="d67a9575-3961-493b-9416-0df677d8bb92" name="Changes" comment="Add initial constants and entry point">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/IUserInterfaceContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/SudokuTextField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/UserInterfaceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -46,6 +48,10 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -57,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690489372269</updated>
-      <workItem from="1690489373321" duration="327000" />
+      <workItem from="1690489373321" duration="9204000" />
     </task>
     <task id="LOCAL-00001" summary="Scaffold project">
       <option name="closed" value="true" />
@@ -67,7 +73,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690489558895</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add initial constants and entry point">
+      <option name="closed" value="true" />
+      <created>1690490023098</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690490023098</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +117,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Scaffold project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scaffold project" />
+    <MESSAGE value="Add initial constants and entry point" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add initial constants and entry point" />
   </component>
 </project>
