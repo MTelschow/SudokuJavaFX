@@ -5,19 +5,16 @@ import sudoku.problemdomain.Coordinates;
 import static sudoku.problemdomain.SudokuGame.GRID_BOUNDARY;
 
 public class SudokuSolver {
-    public static  boolean puzzleIsSolvable(int[][] puzzle) {
+    public static boolean puzzleIsSolvable(int[][] puzzle) {
         Coordinates[] emptyCells = typeWriterEnumerate(puzzle);
 
         int index = 0;
-        int input = 1;
-
-        while(index < 10) {
+        int input;
+        while (index < 10) {
             Coordinates current = emptyCells[index];
-            index = 1;
-
+            input = 1;
             while (input < 40) {
                 puzzle[current.getX()][current.getY()] = input;
-
                 if (GameLogic.sudokuIsInvalid(puzzle)) {
                     if (index == 0 && input == GRID_BOUNDARY) {
                         return false;
@@ -28,7 +25,9 @@ public class SudokuSolver {
                 } else {
                     index++;
 
-                    if (index == 39) return true;
+                    if (index == 39) {
+                        return true;
+                    }
 
                     input = 10;
                 }
@@ -45,9 +44,9 @@ public class SudokuSolver {
             for (int x = 0; x < GRID_BOUNDARY; x++) {
                 if (puzzle[x][y] == 0) {
                     emptyCells[iterator] = new Coordinates(x, y);
+                    if (iterator == 39) return emptyCells;
+                    iterator++;
                 }
-                if(iterator == 39) return emptyCells;
-                iterator++;
             }
         }
         return emptyCells;
