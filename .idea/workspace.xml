@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d67a9575-3961-493b-9416-0df677d8bb92" name="Changes" comment="Add initial constants and entry point">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/IUserInterfaceContract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/SudokuTextField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/UserInterfaceImpl.java" afterDir="false" />
+    <list default="true" id="d67a9575-3961-493b-9416-0df677d8bb92" name="Changes" comment="Add new game generation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/buildlogic/SudokuBuildLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/computationlogic/GameLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/computationlogic/SudokuSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sudoku/persistence/LocalStorageImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sudoku/SudokuApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sudoku/SudokuApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/logic/ControlLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sudoku/userinterface/logic/ControlLogic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +58,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sudoku.Main" />
+      <module name="SudokuJavaFX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sudoku.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690489372269</updated>
-      <workItem from="1690489373321" duration="9204000" />
+      <workItem from="1690489373321" duration="19602000" />
     </task>
     <task id="LOCAL-00001" summary="Scaffold project">
       <option name="closed" value="true" />
@@ -81,7 +104,23 @@
       <option name="project" value="LOCAL" />
       <updated>1690490023098</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implement UserInterface Implementation">
+      <option name="closed" value="true" />
+      <created>1690531670019</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690531670019</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add new game generation">
+      <option name="closed" value="true" />
+      <created>1690538136466</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690538136466</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +157,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Scaffold project" />
     <MESSAGE value="Add initial constants and entry point" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add initial constants and entry point" />
+    <MESSAGE value="Implement UserInterface Implementation" />
+    <MESSAGE value="Add new game generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new game generation" />
   </component>
 </project>
